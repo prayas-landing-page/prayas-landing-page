@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/prayas-landing-page/static/css/main.073c9b0a.css",
+    "main.js": "/prayas-landing-page/static/js/main.9f24aa75.js",
+    "static/js/787.9f27c525.chunk.js": "/prayas-landing-page/static/js/787.9f27c525.chunk.js",
+    "static/media/favicon.ico": "/prayas-landing-page/static/media/favicon.d566e7a4363c87a106c7.ico",
+    "index.html": "/prayas-landing-page/index.html",
+    "main.073c9b0a.css.map": "/prayas-landing-page/static/css/main.073c9b0a.css.map",
+    "main.9f24aa75.js.map": "/prayas-landing-page/static/js/main.9f24aa75.js.map",
+    "787.9f27c525.chunk.js.map": "/prayas-landing-page/static/js/787.9f27c525.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9f24aa75.js"
+  ]
+}
