@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/prayas-landing-page/static/css/main.073c9b0a.css",
-    "main.js": "/prayas-landing-page/static/js/main.9f24aa75.js",
-    "static/js/787.9f27c525.chunk.js": "/prayas-landing-page/static/js/787.9f27c525.chunk.js",
-    "static/media/favicon.ico": "/prayas-landing-page/static/media/favicon.d566e7a4363c87a106c7.ico",
+    "main.css": "/prayas-landing-page/static/css/main.ce9ec33f.css",
+    "main.js": "/prayas-landing-page/static/js/main.f10c5b5c.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/prayas-landing-page/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/prayas-landing-page/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/prayas-landing-page/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/nucleo-icons.svg": "/prayas-landing-page/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
+    "static/media/logo_name.png": "/prayas-landing-page/static/media/logo_name.37856877709df5fefa0b.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/prayas-landing-page/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/prayas-landing-page/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/nucleo-icons.eot": "/prayas-landing-page/static/media/nucleo-icons.19abb5402a664606b14c.eot",
+    "static/media/nucleo-icons.ttf": "/prayas-landing-page/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
+    "static/media/nucleo-icons.woff": "/prayas-landing-page/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
+    "static/media/nucleo-icons.woff2": "/prayas-landing-page/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
     "index.html": "/prayas-landing-page/index.html",
-    "main.073c9b0a.css.map": "/prayas-landing-page/static/css/main.073c9b0a.css.map",
-    "main.9f24aa75.js.map": "/prayas-landing-page/static/js/main.9f24aa75.js.map",
-    "787.9f27c525.chunk.js.map": "/prayas-landing-page/static/js/787.9f27c525.chunk.js.map"
+    "main.ce9ec33f.css.map": "/prayas-landing-page/static/css/main.ce9ec33f.css.map",
+    "main.f10c5b5c.js.map": "/prayas-landing-page/static/js/main.f10c5b5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9f24aa75.js"
+    "static/css/main.ce9ec33f.css",
+    "static/js/main.f10c5b5c.js"
   ]
 }
