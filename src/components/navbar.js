@@ -1,187 +1,51 @@
-import React from "react";
-import { Link } from "react-router-dom";
-// JavaScript plugin that hides or shows a component based on your scroll
-import Headroom from "headroom.js";
-// reactstrap components
+import React, { useState } from 'react';
 import {
-  Button,
-  UncontrolledCollapse,
-  DropdownMenu,
-  DropdownItem,
-  DropdownToggle,
-  UncontrolledDropdown,
-  Media,
-  NavbarBrand,
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip
-} from "reactstrap";
+  MDBContainer,
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBIcon,
+  MDBCollapse,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBBtn
+} from 'mdb-react-ui-kit';
 
-class CustomNavbar extends React.Component {
-  componentDidMount() {
-    let headroom = new Headroom(document.getElementById("navbar-main"));
-    // initialise
-    headroom.init();
-  }
-  state = {
-    collapseClasses: "",
-    collapseOpen: false
-  };
 
-  onExiting = () => {
-    this.setState({
-      collapseClasses: "collapsing-out"
-    });
-  };
+export default function CustomNavbar() {
+  const [showNav, setShowNav] = useState(false);
 
-  onExited = () => {
-    this.setState({
-      collapseClasses: ""
-    });
-  };
 
-  render() {
-    return (
-      <>
-        <header className="header-global">
-          <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
-            expand="lg"
-            id="navbar-main"
-          >
-            <Container>
-              <NavbarBrand to="/" tag={Link}>
-                <img
-                  alt="..."
-                  src={require("../assets/images/logo_name.png")}
-                />
-              </NavbarBrand>
-              <button className="navbar-toggler" id="navbar_global">
-                <span className="navbar-toggler-icon" />
-              </button>
-              <UncontrolledCollapse
-                toggler="#navbar_global"
-                navbar
-                className={this.state.collapseClasses}
-                onExiting={this.onExiting}
-                onExited={this.onExited}
-              >
-                <div className="navbar-collapse-header">
-                  <Row>
-                    <Col className="collapse-brand" xs="6">
-                      <Link to="/">
-                        <img
-                          alt="..."
-                          src={require("../assets/images/logo_name.png")}
-                        />
-                      </Link>
-                    </Col>
-                    <Col className="collapse-close" xs="6">
-                      <button className="navbar-toggler" id="navbar_global">
-                        <span />
-                        <span />
-                      </button>
-                    </Col>
-                  </Row>
-                </div>
-                <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Components</span>
-                    </DropdownToggle>
-                    <DropdownMenu className="dropdown-menu-xl">
-                      <div className="dropdown-menu-inner">
-                        <Media
-                          className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=adsr-navbar"
-                          target="_blank"
-                        >
-                          <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                            <i className="ni ni-spaceship" />
-                          </div>
-                          <Media body className="ml-3">
-                            <h6 className="heading text-primary mb-md-1">
-                              Getting started
-                            </h6>
-                            <p className="description d-none d-md-inline-block mb-0">
-                              Learn how to use Argon compiling Scss, change
-                              brand colors and more.
-                            </p>
-                          </Media>
-                        </Media>
-                        <Media
-                          className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
-                          target="_blank"
-                        >
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-palette" />
-                          </div>
-                          <Media body className="ml-3">
-                            <h6 className="heading text-primary mb-md-1">
-                              Foundation
-                            </h6>
-                            <p className="description d-none d-md-inline-block mb-0">
-                              Learn more about colors, typography, icons and the
-                              grid system we used for Argon.
-                            </p>
-                          </Media>
-                        </Media>
-                        <Media
-                          className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alert?ref=adsr-navbar"
-                          target="_blank"
-                        >
-                          <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-ui-04" />
-                          </div>
-                          <Media body className="ml-3">
-                            <h5 className="heading text-warning mb-md-1">
-                              Components
-                            </h5>
-                            <p className="description d-none d-md-inline-block mb-0">
-                              Browse our 50 beautiful handcrafted components
-                              offered in the Free version.
-                            </p>
-                          </Media>
-                        </Media>
-                      </div>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Examples</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Landing
-                      </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Profile
-                      </DropdownItem>
-                      <DropdownItem to="/login-page" tag={Link}>
-                        Login
-                      </DropdownItem>
-                      <DropdownItem to="/register-page" tag={Link}>
-                        Register
-                      </DropdownItem>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-                </Nav>
-              </UncontrolledCollapse>
-            </Container>
-          </Navbar>
-        </header>
-      </>
-    );
-  }
+  return (
+    <MDBNavbar expand='lg' light>
+      <MDBContainer fluid>
+        <MDBNavbarBrand className='mb-0'>
+          <img
+            src={require('../assets/images/logo.png')}
+            alt='Prayas Logo'
+            loading='lazy'
+          />
+        </MDBNavbarBrand>
+
+        <MDBNavbarToggler
+          type='button'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+          onClick={() => setShowNav(!showNav)}
+        >
+          <MDBIcon icon='bars' fas />
+        </MDBNavbarToggler>
+
+        <MDBCollapse navbar show={showNav}>
+          <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
+            <MDBNavbarItem>
+              <MDBBtn outline rounded className='mx-5' color='primary'>
+                Donate Now
+              </MDBBtn>
+            </MDBNavbarItem>
+          </MDBNavbarNav>
+        </MDBCollapse>
+      </MDBContainer>
+    </MDBNavbar>
+  );
 }
-
-export default CustomNavbar;

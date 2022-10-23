@@ -1,0 +1,9 @@
+body {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#root {
+    width: 100vw;
+}
