@@ -5,7 +5,7 @@ import Footer from '../components/landingpage/footer';
 
 
 
-class JourneyPage extends React.Component {
+class AboutUs extends React.Component {
     render() {
         return (
             <>
@@ -17,4 +17,4 @@ class JourneyPage extends React.Component {
     }
 }
 
-export default JourneyPage;
+export default AboutUs;

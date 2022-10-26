@@ -7,18 +7,19 @@ import {
 
 export default function SectionIntroduction() {
     return (
-        <MDBContainer className='my-5'>
+        <MDBContainer>
+            <div className='mb-8'></div>
             <MDBRow>
-                <MDBCol md='4'>
-                    <MDBTypography tag='div' className='display-5 pb-3 mb-3'>
-                        Who are we ?
+                <MDBCol md='3' className='my-auto'>
+                    <MDBTypography color='body' className='display-4 text-center fw-lighter'>
+                        Who are we
                     </MDBTypography>
                 </MDBCol>
-                <MDBCol md='8'>
-                    <MDBTypography tag='div' className='display-7 pb-3 mb-3'>
-                        In 2016, Prayas started out with the intention of helping
+                <MDBCol offsetMd='1' md='7'>
+                    <MDBTypography className='display-7'>
+                        In <b className='fs-2'>2016</b>, Prayas started out with the intention of helping
                         the society and reaching out to the underprivileged. This
-                        initiative started with a group of five members and today
+                        initiative started with a group of 5 members and today
                         has grown into a community of 35 members.
                     </MDBTypography>
                 </MDBCol>

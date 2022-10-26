@@ -12,17 +12,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-
-.deluxe-grey {
-    background-color: #bebebe !important;
-}
-
-
-.navbar-brand img {
-    height: 4rem;
-    margin: 0 1.5rem ;
-}
-
 .display-7 {
     font-size: calc(1.325rem + 0.9vw);
     font-weight: 300;
