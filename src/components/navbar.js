@@ -17,7 +17,7 @@ export default function CustomNavbar() {
 
 
   return (
-    <MDBNavbar expand='lg' light>
+    <MDBNavbar expand='lg' light fixed='top'>
       <MDBContainer fluid>
         <MDBNavbarBrand className='mb-0'>
           <img
