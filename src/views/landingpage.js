@@ -1,6 +1,7 @@
 import React from "react";
 import CustomNavbar from '../components/navbar';
 import SectionHeader from '../components/landingpage/sectionHeader';
+import SectionImpactBar from '../components/landingpage/sectionImpactBar';
 import SectionIntroduction from '../components/landingpage/sectionIntroduction';
 import SectionRecognition from '../components/landingpage/sectionRecognition';
 import SectionVision from '../components/landingpage/sectionVision';
@@ -11,20 +12,16 @@ import Footer from '../components/landingpage/footer';
 
 import '../assets/css/Landingpage.css';
 
-import {
-    Container
-} from "reactstrap";
-
-
 class LandingPage extends React.Component {
     render() {
         return (
             <>
                 <CustomNavbar />
                 <SectionHeader />
+                <SectionImpactBar />
                 <SectionIntroduction />
-                <SectionRecognition></SectionRecognition>
                 <SectionVision></SectionVision>
+                <SectionRecognition></SectionRecognition>
                 <SectionReferences></SectionReferences>
                 <SectionMembers></SectionMembers>
                 <SectionDonors></SectionDonors>

@@ -12,6 +12,36 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.fw-bold {
+  font-weight: bold!important;
+}
+
+.text-indent {
+  text-indent: 10%;
+}
+
+.deluxe-grey {
+    background-color: #bebebe !important;
+}
+
+
+.navbar-brand img {
+    height: 4rem;
+    margin: 0 1.5rem ;
+}
+
+.navbar-bg {
+  background-color:#2d394b;
+}
+
+.paper-border {
+  background-image:url('../images/stroke.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem 2rem;
+}
+
+
 .display-7 {
     font-size: calc(1.325rem + 0.9vw);
     font-weight: 300;
