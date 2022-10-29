@@ -18,12 +18,14 @@ export default function SectionRecognition() {
         <section className='py-5'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol md='12'>
+                    <MDBCol md='1' offsetMd={5}>
                         <MDBTypography className='display-4 text-success'>
                             <i>{title}</i>
                         </MDBTypography>
                     </MDBCol>
-                    <MDBCol md='8'>
+                </MDBRow>
+                <MDBRow>
+                    <MDBCol md='8' offsetMd={2}>
                         <MDBTypography tag='div' className='display-8 pb-3 mb-3'>
                             {text1}
                         </MDBTypography>

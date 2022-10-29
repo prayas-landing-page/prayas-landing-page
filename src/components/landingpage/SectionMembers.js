@@ -1,33 +1,60 @@
 import React from "react";
 import {
-    Container,
-    Row,
-    Col,
-    Button
-} from "reactstrap";
+    MDBCol,
+    MDBContainer, MDBRow,
+    MDBTypography,
+    MDBCard,
+    MDBCardHeader,
+    MDBCardBody,
+    MDBCardTitle,   
+    MDBCardText
+} from 'mdb-react-ui-kit';
 
 
-class SectionMembers extends React.Component {
-    render() {
-        return (
-            <section className="section pb-3">
-                <Container>
-                    <h1>Members</h1>
-                    <ul>
-                        <li>Amit Parekh</li>
-                        <li>Jayeshbhai Gandhi</li>
-                        <li>Chirag Doshi</li>
-                        <li>Malay Malviya</li>
-                        <li>Vimalbhai shah</li>
-                        <li>Nishant Shah</li>
-                        <li>Siddharth Talsania</li>
-                        <li>Tusharbhai Kamdar</li>
-                    </ul>
+export default function SectionMembers() {
+    const title = 'Our Members';
+    const members = [
+        "Amit Parekh",
+        "Jayeshbhai Gandhi",
+        "Chirag Doshi",
+        "Malay Malviya",
+        "Vimalbhai shah",
+        "Nishant Shah",
+        "Siddharth Talsania",
+        "Tusharbhai Kamdar",
+    ];
+    return (
+        <section className='py-5'>
+            <MDBContainer>
+                <MDBRow>
+                    <MDBCol md='4' offsetMd={4}>
+                        <MDBTypography className='display-4 text-success'>
+                            <i>{title}</i>
+                        </MDBTypography>
+                    </MDBCol>
+                </MDBRow>
+                <MDBContainer>
+                    <MDBRow>
 
-                </Container>
-            </section>
-        )
-    }
+                        {
+                            members.map((member, index) =>
+                                <MDBCol md='4' key={index}>
+                                    <MDBCard shadow='0' border='info' background='white' className='mb-3'>
+                                        {/* <MDBCardHeader></MDBCardHeader> */}
+                                        <MDBCardBody>
+                                            <MDBCardTitle>{member}</MDBCardTitle>
+                                            <MDBCardText>
+
+                                            </MDBCardText>
+                                        </MDBCardBody>
+                                    </MDBCard>
+                                </MDBCol>
+                            )
+                        }
+                    </MDBRow>
+                </MDBContainer>
+
+            </MDBContainer>
+        </section>
+    );
 }
-
-export default SectionMembers;

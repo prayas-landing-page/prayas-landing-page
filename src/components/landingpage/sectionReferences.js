@@ -1,30 +1,44 @@
 import React from "react";
 import {
-    Container,
-    Row,
-    Col,
-    Button
-} from "reactstrap";
+    MDBCol,
+    MDBContainer, MDBRow,
+    MDBTypography
+} from 'mdb-react-ui-kit';
 
 
-class SectionReferences extends React.Component {
-    render() {
-        return (
-            <section className="section pb-3">
-                <Container>
-                    <h1>References</h1>
-                    <ul>
-                        <li>Shree Kantibhai Kapasi</li>
-                        <li>Shree Rajeshbhai P.Shah (Lokhandwala)</li>
-                        <li>Shree Nilesh hai Timbadia</li>
-                        <li>Shree Mehulbhai Dholakia</li>
-                        <li>Shree Ashwinbhai Shah</li>
-                    </ul>
+export default function SectionReferences() {
+    const title = 'References';
+    const members = [
+        "Shree Kantibhai Kapasi",
+        "Shree Nileshbhai Timbadia",
+        "Shree Mehulbhai Dholakia",
+        "Shree Ashwinbhai Shah",
+        "Shree Rajeshbhai P Shah (Lokhandwala)",
+    ];
+    return (
+        <section className='py-5'>
+            <MDBContainer>
+                <MDBRow>
+                    <MDBCol md='1' offsetMd={5}>
+                        <MDBTypography className='display-4 text-success'>
+                            <i>{title}</i>
+                        </MDBTypography>
+                    </MDBCol>
+                </MDBRow>
+                <MDBContainer>
+                <MDBRow>
+                    
+                    {
+                        members.map((member, index) =>
+                            <MDBCol md='4' key={index}>
+                                <li className="display-8 p-3">{member}</li>
+                            </MDBCol>
+                        )
+                    }
+                </MDBRow>
+                    </MDBContainer>
 
-                </Container>
-            </section>
-        )
-    }
+            </MDBContainer>
+        </section>
+    );
 }
-
-export default SectionReferences;

@@ -21,19 +21,19 @@ export default function SectionImpactBar() {
         <section className='py-5'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol md='3' className="">
+                    <MDBCol md='3' size='6' className="">
                         <MDBTypography className="text-center display-4">{values.value1}</MDBTypography>
                         <MDBTypography className="text-center display-7">{values.value1text}</MDBTypography>
                     </MDBCol>
-                    <MDBCol md='3' className="">
+                    <MDBCol md='3' size='6' className="">
                         <MDBTypography className="text-center display-4">{values.value2}</MDBTypography>
                         <MDBTypography className="text-center display-7">{values.value2text}</MDBTypography>
                     </MDBCol>
-                    <MDBCol md='3' className="">
+                    <MDBCol md='3' size='6' className="">
                         <MDBTypography className="text-center display-4">{values.value3}</MDBTypography>
                         <MDBTypography className="text-center display-7">{values.value3text}</MDBTypography>
                     </MDBCol>
-                    <MDBCol md='3' className="">
+                    <MDBCol md='3' size='6' className="">
                         <MDBTypography className="text-center display-4">{values.value4}</MDBTypography>
                         <MDBTypography className="text-center display-7">{values.value4text}</MDBTypography>
                     </MDBCol>

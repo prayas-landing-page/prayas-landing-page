@@ -1,67 +1,60 @@
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .fw-bold {
-  font-weight: bold!important;
+  font-weight: bold !important;
 }
 
 .text-indent {
   text-indent: 10%;
 }
 
+
 .deluxe-grey {
-    background-color: #bebebe !important;
+  background-color: #bebebe !important;
 }
 
 
 .navbar-brand img {
-    height: 4rem;
-    margin: 0 1.5rem ;
+  height: 4rem;
+  margin: 0 1.5rem;
 }
 
 .navbar-bg {
-  background-color:#2d394b;
+  background-color: #2d394b;
 }
-
-.paper-border {
-  background-image:url('../images/stroke.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 2rem 2rem;
-}
-
 
 .display-7 {
-    font-size: calc(1.325rem + 0.9vw);
-    font-weight: 300;
-    line-height: 1.2
+  font-size: calc(1.325rem + 0.9vw);
+  font-weight: 300;
+  line-height: 1.2
+}
+
+@media(min-width: 1200px) {
+  .display-7 {
+    font-size: 2.0rem;
   }
-  
-  @media(min-width: 1200px) {
-    .display-7 {
-      font-size: 2.0rem;
-    }
-  }
-  
+}
+
+.display-8 {
+  font-size: calc(1.275rem + 0.3vw);
+  font-weight: 300;
+  line-height: 1.2
+}
+
+@media(min-width: 1200px) {
   .display-8 {
-    font-size: calc(1.275rem + 0.3vw);
-    font-weight: 300;
-    line-height: 1.2
+    font-size: 1.5rem;
   }
-  
-  @media(min-width: 1200px) {
-    .display-8 {
-      font-size: 1.5rem;
-    }
-  }
+}
