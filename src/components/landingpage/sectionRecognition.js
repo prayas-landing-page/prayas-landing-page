@@ -18,8 +18,8 @@ export default function SectionRecognition() {
         <section className='py-5'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol md='1' offsetMd={5}>
-                        <MDBTypography className='display-4 text-success'>
+                    <MDBCol md='4' offsetMd={4}>
+                        <MDBTypography className='display-4 text-success fw-bold my-5'>
                             <i>{title}</i>
                         </MDBTypography>
                     </MDBCol>

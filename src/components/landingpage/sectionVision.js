@@ -7,7 +7,7 @@ import {
 
 
 export default function SectionVision() {
-    const title = 'Vision';
+    const title = 'Our Vision';
     const text1 = `Our vision is to bring about a positive change in the lives 
     of those that have unfortunately been left behind in our society. We are a 
     mixture of young and old members, allowing us to keep up with contemporary 
@@ -17,8 +17,8 @@ export default function SectionVision() {
         <section className='py-5'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol md='1' offsetMd={5}>
-                        <MDBTypography className='display-4 text-success'>
+                    <MDBCol md='4' offsetMd={4}>
+                        <MDBTypography className='display-4 text-success fw-bold'>
                             <i>{title}</i>
                         </MDBTypography>
                     </MDBCol>

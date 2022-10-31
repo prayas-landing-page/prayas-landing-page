@@ -2,7 +2,11 @@ import React from "react";
 import {
     MDBCol,
     MDBContainer, MDBRow,
-    MDBTypography
+    MDBTypography,
+    MDBCard,
+    MDBCardBody,
+    MDBCardTitle,
+    MDBCardText
 } from 'mdb-react-ui-kit';
 
 
@@ -19,24 +23,32 @@ export default function SectionReferences() {
         <section className='py-5'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol md='1' offsetMd={5}>
-                        <MDBTypography className='display-4 text-success'>
+                    <MDBCol md='4' offsetMd={4}>
+                        <MDBTypography className='display-4 text-success fw-bold my-5'>
                             <i>{title}</i>
                         </MDBTypography>
                     </MDBCol>
                 </MDBRow>
                 <MDBContainer>
-                <MDBRow>
-                    
-                    {
-                        members.map((member, index) =>
-                            <MDBCol md='4' key={index}>
-                                <li className="display-8 p-3">{member}</li>
-                            </MDBCol>
-                        )
-                    }
-                </MDBRow>
-                    </MDBContainer>
+                    <MDBRow>
+
+                        {
+                            members.map((member, index) =>
+                                <MDBCol md='4' key={index}>
+                                    <MDBCard shadow='0' border='info' background='white' className='mb-3'>
+                                        {/* <MDBCardHeader></MDBCardHeader> */}
+                                        <MDBCardBody>
+                                            <MDBCardTitle>{member}</MDBCardTitle>
+                                            <MDBCardText>
+
+                                            </MDBCardText>
+                                        </MDBCardBody>
+                                    </MDBCard>
+                                </MDBCol>
+                            )
+                        }
+                    </MDBRow>
+                </MDBContainer>
 
             </MDBContainer>
         </section>

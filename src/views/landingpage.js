@@ -18,9 +18,9 @@ class LandingPage extends React.Component {
             <>
                 <CustomNavbar />
                 <SectionHeader />
-                <SectionImpactBar />
                 <SectionIntroduction />
-                <SectionVision></SectionVision>
+                <SectionVision />
+                <SectionImpactBar />
                 <SectionRecognition></SectionRecognition>
                 <SectionReferences></SectionReferences>
                 <SectionMembers></SectionMembers>

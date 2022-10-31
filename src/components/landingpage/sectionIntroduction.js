@@ -24,9 +24,9 @@ export default function SectionIntroduction() {
             <MDBContainer>
                 <MDBRow>
                     <MDBCol lg='6' className='my-5'>
-                        <MDBRow className='px-3 my-5'>
+                        <MDBRow className='px-3'>
                             <MDBCol md='10' offsetLg={1}>
-                                <MDBTypography className='display-4 text-success'>
+                                <MDBTypography className='display-4 text-success fw-bold my-5'>
                                     <i>{title}</i>
                                 </MDBTypography>
                             </MDBCol>
