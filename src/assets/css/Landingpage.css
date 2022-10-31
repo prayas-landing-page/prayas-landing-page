@@ -12,6 +12,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+
+/* 
+BEAUTIFICATION 
+*/
+
 .fw-bold {
   font-weight: bold !important;
 }
@@ -20,19 +25,8 @@ body::-webkit-scrollbar {
   text-indent: 10%;
 }
 
-
 .deluxe-grey {
   background-color: #bebebe !important;
-}
-
-
-.navbar-brand img {
-  height: 4rem;
-  margin: 0 1.5rem;
-}
-
-.navbar-bg {
-  background-color: #2d394b;
 }
 
 .display-7 {
@@ -57,4 +51,30 @@ body::-webkit-scrollbar {
   .display-8 {
     font-size: 1.5rem;
   }
+}
+
+
+.paper-cut-border-before{
+  width: 100%;
+  border-top: 30px solid transparent;
+  border-image: url('../images/paper-cut-top.png') 50 stretch;
+}
+
+.paper-cut-border-after{
+  width: 100%;
+  border-bottom:30px solid transparent;
+  border-image: url('../images/paper-cut-bottom.png') 50 stretch;
+}
+
+/* 
+Fixing Specific Elements 
+*/
+
+.navbar-brand img {
+  height: 4rem;
+  margin: 0 1.5rem;
+}
+
+.navbar-bg {
+  background-color: #2d394b;
 }

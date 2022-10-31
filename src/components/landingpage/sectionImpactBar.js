@@ -4,6 +4,7 @@ import {
     MDBContainer, MDBRow,
     MDBTypography
 } from 'mdb-react-ui-kit';
+import PaperBorder from '../../components/paperborder';
 
 
 export default function SectionImpactBar() {
@@ -18,27 +19,30 @@ export default function SectionImpactBar() {
         'value4text': 'Rs. Donated'
     }
     return (
-        <section className='py-5'>
-            <MDBContainer>
-                <MDBRow>
-                    <MDBCol md='3' size='6' className="">
-                        <MDBTypography className="text-center display-4">{values.value1}</MDBTypography>
-                        <MDBTypography className="text-center display-7">{values.value1text}</MDBTypography>
-                    </MDBCol>
-                    <MDBCol md='3' size='6' className="">
-                        <MDBTypography className="text-center display-4">{values.value2}</MDBTypography>
-                        <MDBTypography className="text-center display-7">{values.value2text}</MDBTypography>
-                    </MDBCol>
-                    <MDBCol md='3' size='6' className="">
-                        <MDBTypography className="text-center display-4">{values.value3}</MDBTypography>
-                        <MDBTypography className="text-center display-7">{values.value3text}</MDBTypography>
-                    </MDBCol>
-                    <MDBCol md='3' size='6' className="">
-                        <MDBTypography className="text-center display-4">{values.value4}</MDBTypography>
-                        <MDBTypography className="text-center display-7">{values.value4text}</MDBTypography>
-                    </MDBCol>
-                </MDBRow>
-            </MDBContainer>
+        <section className='navbar-bg'>
+            <PaperBorder>
+                <MDBContainer className="text-white py-5">
+                    <MDBRow className="py-5">
+                        <MDBCol md='3' size='6' className="">
+                            <MDBTypography className="text-center display-4 fw-bold">{values.value1}</MDBTypography>
+                            <MDBTypography className="text-center display-7">{values.value1text}</MDBTypography>
+                        </MDBCol>
+
+                        <MDBCol md='3' size='6' className="">
+                            <MDBTypography className="text-center display-4 fw-bold">{values.value2}</MDBTypography>
+                            <MDBTypography className="text-center display-7">{values.value2text}</MDBTypography>
+                        </MDBCol>
+                        <MDBCol md='3' size='6' className="">
+                            <MDBTypography className="text-center display-4 fw-bold">{values.value3}</MDBTypography>
+                            <MDBTypography className="text-center display-7">{values.value3text}</MDBTypography>
+                        </MDBCol>
+                        <MDBCol md='3' size='6' className="">
+                            <MDBTypography className="text-center display-4 fw-bold">{values.value4}</MDBTypography>
+                            <MDBTypography className="text-center display-7">{values.value4text}</MDBTypography>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBContainer>
+            </PaperBorder>
         </section>
     );
 }
