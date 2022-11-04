@@ -1,4 +1,7 @@
 /* Hide scrollbar for IE, Edge and Firefox */
+html {
+  overflow-x:hidden;
+}
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   -ms-overflow-style: none;
@@ -54,15 +57,15 @@ BEAUTIFICATION
 }
 
 
-.paper-cut-border-before{
+.paper-cut-border-before {
   width: 100%;
   border-top: 30px solid transparent;
   border-image: url('../images/paper-cut-top.png') 50 stretch;
 }
 
-.paper-cut-border-after{
+.paper-cut-border-after {
   width: 100%;
-  border-bottom:30px solid transparent;
+  border-bottom: 30px solid transparent;
   border-image: url('../images/paper-cut-bottom.png') 50 stretch;
 }
 
@@ -75,6 +78,13 @@ Fixing Specific Elements
   margin: 0 1.5rem;
 }
 
-.darkblue-bg {
-  background-color: #2d394b;
+.navbar-bg {
+  background: #141E30;
+  background: -webkit-linear-gradient(to top, #243B55, #141E30);
+  background: linear-gradient(to top, #243B55, #141E30);
+}
+
+.darkblue-grad-bg {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,  rgba(2,0,36,1) 100%);
 }

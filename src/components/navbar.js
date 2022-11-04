@@ -17,7 +17,7 @@ export default function CustomNavbar() {
 
 
   return (
-    <MDBNavbar expand='lg' className='navbar'>
+    <MDBNavbar expand='lg' className='navbar-bg'>
       <MDBContainer fluid>
         <MDBNavbarBrand className='mb-0 mx-5'>
           <img
@@ -39,7 +39,7 @@ export default function CustomNavbar() {
         <MDBCollapse navbar show={showNav}>
           <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBBtn outline rounded className='mx-5' color='success' size='lg'>
+              <MDBBtn outline rounded className='mx-5' color='white' size='lg'>
                 Donate Now
               </MDBBtn>
             </MDBNavbarItem>

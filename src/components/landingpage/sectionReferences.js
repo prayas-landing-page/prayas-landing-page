@@ -23,8 +23,8 @@ export default function SectionReferences() {
         <section className='py-5'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol md='4' offsetMd={4}>
-                        <MDBTypography className='display-4 text-success fw-bold my-5'>
+                    <MDBCol md='6' offsetMd={3}>
+                        <MDBTypography className='display-4 text-success text-center my-5'>
                             <i>{title}</i>
                         </MDBTypography>
                     </MDBCol>

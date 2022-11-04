@@ -62,9 +62,7 @@ export default function Footer() {
                         <p>
                             Prayas Charitable Trust<br/>
                             Bodakdev , Ahmedabad
-
                         </p>
-                        
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>

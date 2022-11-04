@@ -20,11 +20,11 @@ export default function SectionDonors() {
         "Shree Manishbhai Mehta (Mehta Tyres)"
     ];
     return (
-        <section className='py-5'>
+        <section className='py-5 navbar-bg'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol md='4' offsetMd={4}>
-                        <MDBTypography className='display-4 text-success fw-bold my-5'>
+                <MDBCol md='6' offsetMd={3}>
+                        <MDBTypography className='display-4 text-white fw-bold my-5 text-center'>
                             <i>{title}</i>
                         </MDBTypography>
                     </MDBCol>
@@ -34,10 +34,12 @@ export default function SectionDonors() {
                         {
                             members.map((member, index) =>
                                 <MDBCol md='3' key={index}>
-                                    <MDBCard shadow='0' background='white' className='mb-3 shadow-4'>
+                                    <MDBCard shadow='0' className='mb-3 shadow-4 bg-light bg-gradient'>
                                         <MDBCardBody>
-                                            <MDBIcon fas icon="hand-holding-heart" size="5x" className="w-100 text-center py-4"/>
-                                            <MDBCardText>{member}</MDBCardText>
+                                            <MDBIcon fas icon="hand-holding-heart" size="5x" className="w-100 text-center text-danger py-4"/>
+                                            <MDBCardText>
+                                                <MDBTypography className="display-8">{member}</MDBTypography>    
+                                            </MDBCardText>
                                         </MDBCardBody>
                                     </MDBCard>
                                 </MDBCol>

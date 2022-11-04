@@ -19,7 +19,7 @@ export default function SectionImpactBar() {
         'value4text': 'Rs. Donated'
     }
     return (
-        <section className='darkblue-bg'>
+        <section className='navbar-bg'>
             <PaperBorder>
                 <MDBContainer className="text-white py-5">
                     <MDBRow className="py-5">
