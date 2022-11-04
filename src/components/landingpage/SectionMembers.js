@@ -24,7 +24,7 @@ export default function SectionMembers() {
         "Tusharbhai Kamdar",
     ];
     return (
-        <section className='py-5'>
+        <section className='py-5 darkblue-bg'>
             <MDBContainer>
                 <MDBRow>
                     <MDBCol md='4' offsetMd={4}>

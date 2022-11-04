@@ -20,7 +20,7 @@ export default function SectionDonors() {
         "Shree Manishbhai Mehta (Mehta Tyres)"
     ];
     return (
-        <section className='py-5 navbar-bg'>
+        <section className='py-5'>
             <MDBContainer>
                 <MDBRow>
                     <MDBCol md='4' offsetMd={4}>

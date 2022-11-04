@@ -12,7 +12,7 @@ export default function SectionIntroduction() {
     const title = "Who are we ?";
     const introduction = (
         <>
-            Prayas began in 2016 as a small group of five people.
+            Prayas began in 2016 as a small group of 5 people.
             Today, it has grown into a community of 35 members who want
             to help the society and reach out especially to underprivileged
             groups within our community.
@@ -20,7 +20,7 @@ export default function SectionIntroduction() {
     );
 
     return (
-        <section className='navbar-bg py-5'>
+        <section className='darkblue-bg py-5'>
             <MDBContainer>
                 <MDBRow>
                     <MDBCol lg='6' className='my-5'>
