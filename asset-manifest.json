@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/prayas-landing-page/static/css/main.ce9ec33f.css",
-    "main.js": "/prayas-landing-page/static/js/main.f10c5b5c.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/prayas-landing-page/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/prayas-landing-page/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/prayas-landing-page/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/nucleo-icons.svg": "/prayas-landing-page/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
-    "static/media/logo_name.png": "/prayas-landing-page/static/media/logo_name.37856877709df5fefa0b.png",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/prayas-landing-page/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/prayas-landing-page/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/nucleo-icons.eot": "/prayas-landing-page/static/media/nucleo-icons.19abb5402a664606b14c.eot",
-    "static/media/nucleo-icons.ttf": "/prayas-landing-page/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
-    "static/media/nucleo-icons.woff": "/prayas-landing-page/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
-    "static/media/nucleo-icons.woff2": "/prayas-landing-page/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "main.css": "/prayas-landing-page/static/css/main.02771e9c.css",
+    "main.js": "/prayas-landing-page/static/js/main.71f47418.js",
+    "static/media/events_22_09_07.jpeg": "/prayas-landing-page/static/media/events_22_09_07.469255f313ea4a1fbe17.jpeg",
+    "static/media/events_22_08_30.jpeg": "/prayas-landing-page/static/media/events_22_08_30.994f2271bb252798f299.jpeg",
+    "static/media/fa-solid-900.ttf": "/prayas-landing-page/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/events_22_10_05.jpeg": "/prayas-landing-page/static/media/events_22_10_05.123624abdb08be958a77.jpeg",
+    "static/media/fa-brands-400.ttf": "/prayas-landing-page/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
+    "static/media/header_02.jpeg": "/prayas-landing-page/static/media/header_02.c74f5691fdd6be17557f.jpeg",
+    "static/media/header_01.jpeg": "/prayas-landing-page/static/media/header_01.fcfbdd75b522af6d8a09.jpeg",
+    "static/media/fa-solid-900.woff2": "/prayas-landing-page/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/fa-brands-400.woff2": "/prayas-landing-page/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
+    "static/media/logo.png": "/prayas-landing-page/static/media/logo.37856877709df5fefa0b.png",
+    "static/media/headshot.png": "/prayas-landing-page/static/media/headshot.3859c1118b64b9b767a3.png",
+    "static/media/fa-regular-400.ttf": "/prayas-landing-page/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
+    "static/media/fa-regular-400.woff2": "/prayas-landing-page/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
+    "static/media/paper-cut-top.png": "/prayas-landing-page/static/media/paper-cut-top.45d298ba888a5c7230f7.png",
+    "static/media/paper-cut-bottom.png": "/prayas-landing-page/static/media/paper-cut-bottom.a4e066febf2cddffaaee.png",
+    "static/media/fa-v4compatibility.ttf": "/prayas-landing-page/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
+    "static/media/fa-v4compatibility.woff2": "/prayas-landing-page/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/prayas-landing-page/index.html",
-    "main.ce9ec33f.css.map": "/prayas-landing-page/static/css/main.ce9ec33f.css.map",
-    "main.f10c5b5c.js.map": "/prayas-landing-page/static/js/main.f10c5b5c.js.map"
+    "main.02771e9c.css.map": "/prayas-landing-page/static/css/main.02771e9c.css.map",
+    "main.71f47418.js.map": "/prayas-landing-page/static/js/main.71f47418.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce9ec33f.css",
-    "static/js/main.f10c5b5c.js"
+    "static/css/main.02771e9c.css",
+    "static/js/main.71f47418.js"
   ]
 }
