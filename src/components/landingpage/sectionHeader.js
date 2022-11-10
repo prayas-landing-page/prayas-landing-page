@@ -25,7 +25,7 @@ export default function SectionHeader() {
         )
     )
     return (
-        <MDBCarousel fade interval={3000} pause={false}>
+        <MDBCarousel fade interval={3000} pause="false">
             {carousel_images}
         </MDBCarousel>
     );

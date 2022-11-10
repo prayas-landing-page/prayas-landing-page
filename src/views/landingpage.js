@@ -8,7 +8,8 @@ import SectionVision from '../components/landingpage/sectionVision';
 import SectionReferences from '../components/landingpage/sectionReferences';
 import SectionDonors from '../components/landingpage/sectionDonors';
 import SectionEvents from '../components/landingpage/sectionEvents';
-import SectionMembers from '../components/landingpage/SectionMembers';
+import SectionMembers from '../components/landingpage/sectionMembers';
+import SectionJourney from '../components/landingpage/sectionJourney';
 import Footer from '../components/landingpage/footer';
 
 import '../assets/css/Landingpage.css';
@@ -22,6 +23,7 @@ class LandingPage extends React.Component {
                 <SectionIntroduction />
                 <SectionVision />
                 <SectionImpactBar />
+                <SectionJourney />
                 <SectionRecognition></SectionRecognition>
                 <SectionEvents />
                 <SectionReferences></SectionReferences>

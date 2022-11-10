@@ -1,73 +1,93 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBBtn, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBBtn, MDBRow, MDBCol, MDBIcon, MDBTypography } from 'mdb-react-ui-kit';
+import dataset from '../../data.json';
 
 export default function Footer() {
+    const { facebook_profile, instagram_profile, youtube_profile } = dataset.social_media;
     return (
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
             <MDBContainer>
                 <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                     <div className='me-5 d-none d-lg-block'>
-                        <span>Get connected with us on social networks:</span>
+                        <p>Get connected with us on social networks:</p>
                     </div>
                     <div>
                         <MDBBtn
                             floating
                             className='mx-3'
                             style={{ backgroundColor: '#3b5998' }}
-                            href='https://facebook.com'
+                            href={facebook_profile}
                             role='button'
+                            size="lg"
                         >
-                            <MDBIcon fab icon='facebook-f' />
+                            <MDBIcon fab icon='facebook-f' size="2x" />
                         </MDBBtn>
 
                         <MDBBtn
                             floating
-                            className='mx-3'
+                            className='mx-3 instagram'
                             style={{ backgroundColor: '#405de6' }}
-                            href='https://www.google.com'
+                            href={instagram_profile}
                             role='button'
+                            size="lg"
                         >
-                            <MDBIcon fab icon='google' />
+                            <MDBIcon fab icon="instagram" size="2x" />
                         </MDBBtn>
                         <MDBBtn
                             floating
                             className='mx-3'
                             style={{ backgroundColor: '#ff0000' }}
-                            href='https://www.youtube.in'
+                            href={youtube_profile}
                             role='button'
+                            size="lg"
                         >
-                            <MDBIcon fab icon='youtube' />
+                            <MDBIcon fab icon='youtube' size="2x" />
+
                         </MDBBtn>
                     </div>
                 </section>
                 <MDBRow className='mt-3'>
-                    <MDBCol md='4' className='mx-auto mb-4'>
-                        <h5 className='text-uppercase fw-bold mb-4'>
-                        <MDBIcon icon="gem" className="me-3" />
-                        Make a difference
-                        </h5>
-                        <h6 className='mb-4'>Lend a helping hand at</h6>
-                        <p>
-                            PRAYAS CHARITABLE TRUST<br/>
-                            HDFC BANK ,<br/>
-                            50200068389003 ,<br/>
-                            HDFC0000049 ,<br/>
-                            BODAKDEV , AHMEDABAD<br/>
-                        </p>
+                    <MDBCol lg="3" md="4" className='mx-auto mb-4'>
                         
-                    </MDBCol>
-                    <MDBCol md='4'></MDBCol>
-                    <MDBCol md='4'>
-                        <h6 className='my-4 fw-bold'>Contact Info</h6>
+                        <MDBTypography tag='div' className='display-7 mb-4'>
+                            <MDBIcon icon="hand" className="me-3" />
+                            Lend a helping hand at
+                        </MDBTypography>
+                        
                         <p>
-                            Prayas Charitable Trust<br/>
-                            Bodakdev , Ahmedabad
+                            PRAYAS CHARITABLE TRUST<br />
+                            HDFC BANK ,<br />
+                            50200068389003 ,<br />
+                            HDFC0000049 ,<br />
+                            BODAKDEV , AHMEDABAD<br />
                         </p>
+
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <img
+                            src={require('../../assets/images/new_logo.jpeg')}
+                            alt='Prayas Logo'
+                            loading='lazy'
+                            className='img-fluid px-2'
+                        />
+
+                    </MDBCol>
+                    <MDBCol md='4'>
+                        <MDBTypography tag='div' className='display-7 mb-3'>
+                            Contact Info 
+                        </MDBTypography>
+                        <MDBTypography tag='div' className='display-8'>
+                            {dataset.prayas.name}
+                        </MDBTypography>
+                        <MDBTypography tag='div' className='display-9'>
+                            Bodakdev, Ahmedabad <br/>
+                            {dataset.prayas.mobile_number}
+                        </MDBTypography>
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>
                     <div className='text-center p-4'>
-                    Made with <MDBIcon fas className='text-danger' icon="heart" /> by
+                        Made with <MDBIcon fas className='text-danger' icon="heart" /> by
                         <a className='text-reset fw-bold' href='https://fenilgandhi.github.io'> Fenil Gandhi </a>
                     </div>
                 </MDBRow>

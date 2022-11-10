@@ -13,11 +13,10 @@ import {
 export default function SectionReferences() {
     const title = 'References';
     const members = [
-        "Shree Kantibhai Kapasi",
-        "Shree Nileshbhai Timbadia",
-        "Shree Mehulbhai Dholakia",
-        "Shree Ashwinbhai Shah",
+        "Shree Kantibhai Kapasi ( Kapasi Handicraft )",
+        "Shree Ashwinbhai Shah ( Kamal Leggings )",
         "Shree Rajeshbhai P Shah (Lokhandwala)",
+        "Shree Pradipbhai Joisar ( DJ Toyota )",
     ];
     return (
         <section className='py-5'>
@@ -34,7 +33,7 @@ export default function SectionReferences() {
 
                         {
                             members.map((member, index) =>
-                                <MDBCol md='4' key={index}>
+                                <MDBCol md='6' key={index}>
                                     <MDBCard shadow='0' border='info' background='white' className='mb-3'>
                                         {/* <MDBCardHeader></MDBCardHeader> */}
                                         <MDBCardBody>

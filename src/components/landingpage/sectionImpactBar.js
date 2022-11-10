@@ -11,12 +11,12 @@ export default function SectionImpactBar() {
     const values = {
         'value1': 35,
         'value1text': 'Members',
-        'value2': 5,
+        'value2': 6,
         'value2text': 'Years',
-        'value3': 150,
+        'value3': 250,
         'value3text': 'Donations',
-        'value4': '3L+',
-        'value4text': 'Rs. Donated'
+        'value4': '10k+',
+        'value4text': 'Smiles donated'
     }
     return (
         <section className='navbar-bg'>

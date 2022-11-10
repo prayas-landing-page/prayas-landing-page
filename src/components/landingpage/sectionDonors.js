@@ -15,9 +15,11 @@ export default function SectionDonors() {
     const title = 'Our Donors';
     const members = [
         "Shree Pravinbhai Shah (Lokhandwala)",
-        "Shree Bhaveshbhai Hakani",
-        "Matushri Revakuvarba Mohanlal Timbadia",
-        "Shree Manishbhai Mehta (Mehta Tyres)"
+        "Shree Bhaveshbhai Hakani (Chhabildas developers Pvt Ltd.)",
+        "Nileshbhai Timbadia (Matushri Revakuvarba Mohanlal Timbadia)",
+        "Shree Manishbhai Mehta (Mehta Tyres)",
+        "Shree Mehulbhai Dholakia ( DJ Toyota )",
+        "Shree Sthanakvasi Jain Sangh, Sector 22, Gandhinagar",
     ];
     return (
         <section className='py-5 navbar-bg'>
@@ -33,12 +35,12 @@ export default function SectionDonors() {
                     <MDBRow>
                         {
                             members.map((member, index) =>
-                                <MDBCol md='3' key={index}>
+                                <MDBCol md='4' key={index}>
                                     <MDBCard shadow='0' className='mb-3 shadow-4 bg-light bg-gradient'>
                                         <MDBCardBody>
                                             <MDBIcon fas icon="hand-holding-heart" size="5x" className="w-100 text-center text-danger py-4"/>
-                                            <MDBCardText>
-                                                <MDBTypography className="display-8">{member}</MDBTypography>    
+                                            <MDBCardText className="display-8">
+                                                {member}
                                             </MDBCardText>
                                         </MDBCardBody>
                                     </MDBCard>

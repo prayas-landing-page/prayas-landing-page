@@ -18,7 +18,7 @@ export default function SectionEvents() {
     ];
     const carousel_images = (
         events.map((event, index) =>
-            <MDBCol md="4" className="px-0">
+            <MDBCol md="4" className="px-0" key={index}>
                 <img src={event.image} alt={event.date} className="img-fluid" />
             </MDBCol>
         )

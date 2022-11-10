@@ -1,73 +1,58 @@
-import React from "react";
 import {
-    Container,
-    Row,
-    Col,
-    Button
-} from "reactstrap";
+    MDBCard,
+    MDBCardImage,
+    MDBCardBody,
+    MDBCardTitle,
+    MDBCardText,
+    MDBBtn,
+    MDBCol, MDBRow, MDBContainer, MDBTypography
+} from "mdb-react-ui-kit";
+import React from "react";
 
 
-class SectionJourney extends React.Component {
-    render() {
-        return (
-            <section className="section pb-3 section-lg">
-                <Container className="card card-body shadow">
-                    <h1>JOURNEY SO FAR</h1>
-                    <ul>
-                        <li><h4>After a year of consistent work, we started distributing food to the needy
-                            children on the streets. Every Sunday more than 110 children are fed across
-                            different areas.</h4></li>
-                        <li><h4>We accomplished this feat with the strength of only 7 members at the time.</h4></li>
-                        <li><h4>During the pandemic, we lent our help to those in need
-                            of medicines, oxygen and food. Medical expenses and other monetary help was
-                            provided as well.</h4>
-                        </li>
-                        <li><h4>The chilly winters of Gujarat were warmed by us for those who have to resort
-                            to living on the streets. We have distributed blankets to the needy.</h4></li>
-                        <li>
-                            <h4>More than 700 pairs of slippers were provided to children during summers so
-                                that their feet are safe from the heat.
-                                The children on the streets also get a respite of entertainment and optimism
-                                as we plan to organise a special talent hunt for them.</h4>
-                        </li>
-                        <li><h4>The old-age homes are often overlooked
-                            and lack facilities. We provided them with
-                            clothes and installed a live dhokla machine
-                            that brought a bright smile on the faces of
-                            our dada-dadis.</h4></li>
-                        <li>
-                            <h4>
-                                Bhakti sandhyas are organised at old age
-                                homes for more than 80 old-age home
-                                residents so that they can enjoy a fun-filled
-                                evening and end the day with bright smiles
-                                on their face.
-                            </h4>
-                        </li>
-                        <li>
-                            <h4>
-                                We make it a point to spend time with specially-abled
-                                children, play with them and engage them in
-                                constructive activities like painting, art and crafts.
-                                We have also distributed 5000 notebooks to the needy
-                                students for unhindered access to quality education.
-                            </h4>
-                        </li>
-                        <li>
-                            <h4>
-                                Looking at improving the environment, we have already organised a tree
-                                plantation drive and planted 7500 saplings across panjrapoles and old age
-                                homes
-                            </h4>
-                        </li>
+export default function SectionJourney() {
+    const title = "Journey So Far";
+    const journey = [
+        { "image": require("../../media/journey_1.png"), "description": "Working for one year, we began to distribute food to the needy children on the streets. Now more than 110 children are fed every Sunday across different areas—a feat accomplished by only 7 members at the time." },
+        { "image": require("../../media/journey_2.png"), "description": "During the pandemic, we helped provide medicines, oxygen and food to those who needed them. We also provided relief to those families financially devastated by the disease." },
+        { "image": require("../../media/journey_3.png"), "description": "For the respite of animals, we installed a navkar mantra system in 6 Panjarapoles across Gujarat. Ghee, roti and lapsi were also provided to the cows."},
+        { "image": require("../../media/logo.png"), "description": "For those who live on the streets during Gujarat's chilly winters, we have distributed blankets to keep them warm." },
+        { "image": require("../../media/logo.png"), "description": "During the summer, more than 700 pairs of slippers were given to children so that their feet would be safe from the heat. In addition, street children also received a much-needed respite from entertainment and optimism as we planned a special talent hunt for them." },
+        { "image": require("../../media/journey_4.png"), "description": "The old-age homes are often overlooked and lack facilities. We provided them with clothes and installed a live dhokla machine that brought a bright smile on the faces of our dada-dadis." },
+        { "image": require("../../media/logo.png"), "description": "Bhakti sandhyas are organised at old age homes for more than 80 old-age home residents so that they can enjoy a fun-filled evening and end the day with bright smiles on their face." },
+        { "image": require("../../media/journey_5.png"), "description": "We make it a point to spend time with specially-abled children, play with them and engage them in constructive activities like painting, art and crafts. We have also distributed 5000 notebooks to the needy students for unhindered access to quality education." },
+        { "image": require("../../media/logo.png"), "description": "As part of our efforts to improve the environment, we have organized a tree-planting drive at various locations. So far 7500 saplings have been planted in old age homes and panjrapoles." },
+    ];
+    return (
+        <section className='py-5'>
+            <MDBContainer>
+                <MDBRow>
+                    <MDBCol md='6' offsetMd={3}>
+                        <MDBTypography className='display-4 text-success text-center my-5'>
+                            <i>{title}</i>
+                        </MDBTypography>
+                    </MDBCol>
+                </MDBRow>
 
-                    </ul>
+                {journey.map((event, index) =>
+                    <MDBCard className="m-3 clouds-grad-bg my-5" key={index}>
+                        <MDBRow className={index %2 === 0 ? "": "flex-row-reverse"}>
+                            <MDBCol lg="3">
+                                <MDBCardImage src={event.image} position='top' alt='Image' className="img-fluid rounded" />
+                            </MDBCol>
+                            <MDBCol lg="1"></MDBCol>
+                            <MDBCol lg="8">
+                                <MDBCardBody className="my-3">
+                                    <MDBTypography className="display-7 text-muted">
+                                        {event.description}
+                                    </MDBTypography>
+                                </MDBCardBody>
+                            </MDBCol>
+                        </MDBRow>
+                    </MDBCard>
+                )}
 
-
-                </Container>
-            </section>
-        )
-    }
+            </MDBContainer>
+        </section >
+    )
 }
-
-export default SectionJourney;
