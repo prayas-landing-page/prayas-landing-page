@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/prayas-landing-page/static/css/main.02771e9c.css",
-    "main.js": "/prayas-landing-page/static/js/main.71f47418.js",
+    "main.css": "/prayas-landing-page/static/css/main.3520ee85.css",
+    "main.js": "/prayas-landing-page/static/js/main.4a93f405.js",
     "static/media/events_22_09_07.jpeg": "/prayas-landing-page/static/media/events_22_09_07.469255f313ea4a1fbe17.jpeg",
     "static/media/events_22_08_30.jpeg": "/prayas-landing-page/static/media/events_22_08_30.994f2271bb252798f299.jpeg",
+    "static/media/new_logo.jpeg": "/prayas-landing-page/static/media/new_logo.1bbc79df7e14076e70be.jpeg",
+    "static/media/journey_5.png": "/prayas-landing-page/static/media/journey_5.c28db7ebf8d747604c6d.png",
+    "static/media/journey_1.png": "/prayas-landing-page/static/media/journey_1.62349f6e3025d5736447.png",
     "static/media/fa-solid-900.ttf": "/prayas-landing-page/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/logo.png": "/prayas-landing-page/static/media/logo.37856877709df5fefa0b.png",
+    "static/media/journey_2.png": "/prayas-landing-page/static/media/journey_2.2f9428bc165b41c21660.png",
     "static/media/events_22_10_05.jpeg": "/prayas-landing-page/static/media/events_22_10_05.123624abdb08be958a77.jpeg",
     "static/media/fa-brands-400.ttf": "/prayas-landing-page/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/header_02.jpeg": "/prayas-landing-page/static/media/header_02.c74f5691fdd6be17557f.jpeg",
     "static/media/header_01.jpeg": "/prayas-landing-page/static/media/header_01.fcfbdd75b522af6d8a09.jpeg",
+    "static/media/journey_3.png": "/prayas-landing-page/static/media/journey_3.6e330a2d61744af253d2.png",
+    "static/media/journey_4.png": "/prayas-landing-page/static/media/journey_4.78366e204792e3d0a8bf.png",
     "static/media/fa-solid-900.woff2": "/prayas-landing-page/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
     "static/media/fa-brands-400.woff2": "/prayas-landing-page/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
-    "static/media/logo.png": "/prayas-landing-page/static/media/logo.37856877709df5fefa0b.png",
     "static/media/headshot.png": "/prayas-landing-page/static/media/headshot.3859c1118b64b9b767a3.png",
     "static/media/fa-regular-400.ttf": "/prayas-landing-page/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
     "static/media/fa-regular-400.woff2": "/prayas-landing-page/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
@@ -20,11 +26,11 @@
     "static/media/fa-v4compatibility.ttf": "/prayas-landing-page/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
     "static/media/fa-v4compatibility.woff2": "/prayas-landing-page/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/prayas-landing-page/index.html",
-    "main.02771e9c.css.map": "/prayas-landing-page/static/css/main.02771e9c.css.map",
-    "main.71f47418.js.map": "/prayas-landing-page/static/js/main.71f47418.js.map"
+    "main.3520ee85.css.map": "/prayas-landing-page/static/css/main.3520ee85.css.map",
+    "main.4a93f405.js.map": "/prayas-landing-page/static/js/main.4a93f405.js.map"
   },
   "entrypoints": [
-    "static/css/main.02771e9c.css",
-    "static/js/main.71f47418.js"
+    "static/css/main.3520ee85.css",
+    "static/js/main.4a93f405.js"
   ]
 }
