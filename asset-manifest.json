@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prayas-landing-page/static/css/main.e0e52efc.css",
-    "main.js": "/prayas-landing-page/static/js/main.e04e8bf4.js",
+    "main.js": "/prayas-landing-page/static/js/main.6426d6df.js",
     "static/media/events_22_09_07.jpeg": "/prayas-landing-page/static/media/events_22_09_07.469255f313ea4a1fbe17.jpeg",
     "static/media/events_22_08_30.jpeg": "/prayas-landing-page/static/media/events_22_08_30.994f2271bb252798f299.jpeg",
     "static/media/events_02.jpeg": "/prayas-landing-page/static/media/events_02.766dc6de18b4703caafe.jpeg",
@@ -37,10 +37,10 @@
     "static/media/fa-v4compatibility.woff2": "/prayas-landing-page/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/prayas-landing-page/index.html",
     "main.e0e52efc.css.map": "/prayas-landing-page/static/css/main.e0e52efc.css.map",
-    "main.e04e8bf4.js.map": "/prayas-landing-page/static/js/main.e04e8bf4.js.map"
+    "main.6426d6df.js.map": "/prayas-landing-page/static/js/main.6426d6df.js.map"
   },
   "entrypoints": [
     "static/css/main.e0e52efc.css",
-    "static/js/main.e04e8bf4.js"
+    "static/js/main.6426d6df.js"
   ]
 }
