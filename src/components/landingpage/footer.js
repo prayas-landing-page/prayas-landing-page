@@ -61,6 +61,10 @@ export default function Footer() {
                             HDFC0000049 ,<br />
                             BODAKDEV , AHMEDABAD<br />
                         </p>
+                        <p className='fw-bold'>
+                            PAN NUMBER : AAETP9768Q <br/>
+                            URN : AAETP9768QF20221
+                        </p>
 
                     </MDBCol>
                     <MDBCol md="4">
@@ -83,6 +87,7 @@ export default function Footer() {
                             Bodakdev, Ahmedabad <br/>
                             {dataset.prayas.mobile_number}
                         </MDBTypography>
+                        <br />
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>

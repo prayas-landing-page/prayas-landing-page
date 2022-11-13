@@ -13,11 +13,11 @@ import {
 export default function SectionDonors() {
     const title = 'Our Donors';
     const members = [
-        "Shree Pravinbhai Shah (Lokhandwala)",
-        "Shree Bhaveshbhai Hakani (Chhabildas developers Pvt Ltd.)",
-        "Nileshbhai Timbadia (Matushri Revakuvarba Mohanlal Timbadia)",
-        "Shree Manishbhai Mehta (Mehta Tyres)",
-        "Shree Mehulbhai Dholakia ( DJ Toyota )",
+        "Shree Pravin Shah (Lokhandwala)",
+        "Shree Bhavesh Hakani (Chhabildas developers Pvt Ltd.)",
+        "Nilesh Timbadia (Matushri Revakuvarba Mohanlal Timbadia)",
+        "Shree Manish Mehta (Mehta Tyres)",
+        "Shree Mehul Dholakia ( DJ Toyota )",
         "Shree Sthanakvasi Jain Sangh, Sector 22, Gandhinagar",
     ];
     return (

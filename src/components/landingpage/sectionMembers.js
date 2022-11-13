@@ -13,13 +13,13 @@ export default function SectionMembers() {
     const title = 'Our Members';
     const members = [
         "Amit Parekh",
-        "Jayeshbhai Gandhi",
+        "Jayesh Gandhi",
         "Chirag Doshi",
         "Malay Malviya",
-        "Vimalbhai shah",
+        "Vimal shah",
         "Nishant Shah",
         "Siddharth Talsania",
-        "Tusharbhai Kamdar",
+        "Tushar Kamdar",
     ];
     return (
         <section className='py-5'>

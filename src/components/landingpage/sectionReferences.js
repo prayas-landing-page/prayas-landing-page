@@ -13,10 +13,10 @@ import {
 export default function SectionReferences() {
     const title = 'References';
     const members = [
-        "Shree Kantibhai Kapasi ( Kapasi Handicraft )",
-        "Shree Ashwinbhai Shah ( Kamal Leggings )",
-        "Shree Rajeshbhai P Shah (Lokhandwala)",
-        "Shree Pradipbhai Joisar ( DJ Toyota )",
+        "Shree Kanti Kapasi ( Kapasi Handicraft )",
+        "Shree Ashwin Shah ( Kamal Leggings )",
+        "Shree Rajesh P Shah (Lokhandwala)",
+        "Shree Pradip Joisar ( DJ Toyota )",
     ];
     return (
         <section className='py-5'>

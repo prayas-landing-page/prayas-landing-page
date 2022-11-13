@@ -9,7 +9,7 @@ import {
 export default function SectionRecognition() {
     const title = 'Recognition';
     const text1 = `Our small efforts have made waves as we have been receiving
-    motivational momentos from Shrimati Anjaliben Vijaybhai Rupani
+    motivational momentos from Shrimati Anjaliben Vijay Rupani
     spouse of ex-CM of Gujarat and Kathiyawadi samaj.`;
     const text2 = `We are happy that our journey has touched the lives of many and
     we continue to work towards uplifting the lives of those who need it most.`;
