@@ -15,14 +15,12 @@ export default function SectionRecognition() {
     we continue to work towards uplifting the lives of those who need it most.`;
 
     return (
-        <section className='py-5'>
+        <section className='my-5'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol md='6' offsetMd={3}>
-                        <MDBTypography className='display-4 text-success text-center my-5'>
-                            <i>{title}</i>
-                        </MDBTypography>
-                    </MDBCol>
+                    <MDBTypography className='display-3 text-success text-center my-5'>
+                        <i>{title}</i>
+                    </MDBTypography>
                 </MDBRow>
                 <MDBRow>
                     <MDBCol md='8' offsetMd={2}>

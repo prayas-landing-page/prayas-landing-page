@@ -5,7 +5,6 @@ import {
     MDBTypography,
     MDBCard,
     MDBCardBody,
-    MDBCardTitle,
     MDBIcon,
     MDBCardText
 } from 'mdb-react-ui-kit';
@@ -38,7 +37,11 @@ export default function SectionDonors() {
                                 <MDBCol md='4' key={index}>
                                     <MDBCard shadow='0' className='mb-3 shadow-4 bg-light bg-gradient'>
                                         <MDBCardBody>
-                                            <MDBIcon fas icon="hand-holding-heart" size="5x" className="w-100 text-center text-danger py-4"/>
+                                            <span className="w-100 text-center text-danger py-4 d-grid">
+                                                <MDBIcon fas icon="heart" size="3x" className="heart" style={{'animationDelay': Math.random().toFixed(1) + 's'}}/>
+                                                <MDBIcon fas icon="hand-holding" size="5x"className=""/>
+                                            </span>
+                                            
                                             <MDBCardText className="display-8">
                                                 {member}
                                             </MDBCardText>

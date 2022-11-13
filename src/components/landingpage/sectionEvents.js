@@ -1,45 +1,59 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
-    MDBCol,
-    MDBContainer, MDBRow,
-    MDBTypography,
-    MDBCarousel,
-    MDBCarouselItem
+    MDBRow,
+    MDBTypography
 } from 'mdb-react-ui-kit';
-import PaperBorder from '../../components/paperborder';
 
+function Carousel(props) {
+    const slideGap = 20;
+    const transitionSpeed = props.transitionSpeed || 5000;
+    const [slides, setSlides] = useState(props.images);
+    useEffect(() => {
+        const slidesClone = [...slides];
+        // const timer = setInterval(function() {
+        //     slidesClone.push(slidesClone.shift());
+        //     // setSlides(slidesClone);
+        // }, transitionSpeed);
+    }, [])
+    
+    return (
+        <div className="gallery-inner">
+            {slides.map(
+                (image, index) =>
+                    <img src={image.src} className='img-fluid img-rounded gallery-img' key={index} />
+            )}
+        </div>
+        
+    )
+}
 
 export default function SectionEvents() {
-    const title = 'Our Events';
-    const events = [
-        { "image": require('../../media/events_22_10_05.jpeg'), "date": "2022-10-05" },
-        { "image": require('../../media/events_22_08_30.jpeg'), "date": "2022-08-30" },
-        { "image": require('../../media/events_22_09_07.jpeg'), "date": "2022-09-07" }
-    ];
-    const carousel_images = (
-        events.map((event, index) =>
-            <MDBCol md="4" className="px-0" key={index}>
-                <img src={event.image} alt={event.date} className="img-fluid" />
-            </MDBCol>
-        )
-    )
-    return (
-        <PaperBorder>
-            <section className='pt-5 darkblue-grad-bg'>
-                <MDBContainer>
-                    <MDBRow >
-                    <MDBCol md='6' offsetMd={3}>
-                            <MDBTypography className='display-3 text-white my-5 text-center'>
-                                <i>{title}</i>
-                            </MDBTypography>
-                        </MDBCol>
-                    </MDBRow>
-                </MDBContainer>
-                <MDBRow>
-                    {carousel_images}
-                </MDBRow>
-            </section >
-        </PaperBorder>
 
+    const title = 'Our Events';
+    const images = [
+        { 'src': require('../../media/events/events_22_10_05.jpeg'), 'width': 1080, 'height': 1080 },
+        { 'src': require('../../media/events/events_04.jpeg'), 'width': 720, 'height': 1280 },
+        { 'src': require('../../media/events/events_01.jpeg'), 'width': 960, 'height': 1280 },
+        { 'src': require('../../media/events/events_22_09_07.jpeg'), 'width': 1080, 'height': 1080 },
+        { 'src': require('../../media/events/events_03.jpeg'), 'width': 1280, 'height': 960 },
+        { 'src': require('../../media/events/events_05.jpeg'), 'width': 1200, 'height': 1600 },
+        { 'src': require('../../media/events/events_02.jpeg'), 'width': 1080, 'height': 1080 },
+        { 'src': require('../../media/events/events_06.jpeg'), 'width': 1600, 'height': 1200 },
+        { 'src': require('../../media/events/events_22_08_30.jpeg'), 'width': 1080, 'height': 1080 },
+        { 'src': require('../../media/events/events_07.jpeg'), 'width': 900, 'height': 1600 },
+        //duplicates
+        { 'src': require('../../media/events/events_22_10_05.jpeg'), 'width': 1080, 'height': 1080 },
+        { 'src': require('../../media/events/events_04.jpeg'), 'width': 720, 'height': 1280 },
+        { 'src': require('../../media/events/events_01.jpeg'), 'width': 960, 'height': 1280 },
+    ];
+    return (
+        <section className='py-5'>
+            <MDBRow className="my-5">
+                <MDBTypography className='display-3 text-success text-center'>
+                    <i>{title}</i>
+                </MDBTypography>
+            </MDBRow>
+            <Carousel images={images} />
+        </section >
     );
 }

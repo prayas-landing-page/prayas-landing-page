@@ -44,10 +44,6 @@ BEAUTIFICATION
   }
 }
 
-.instagram {
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-}
-
 .display-8 {
   font-size: calc(1.275rem + 0.3vw);
   font-weight: 300;
@@ -60,17 +56,35 @@ BEAUTIFICATION
   }
 }
 
-
-.paper-cut-border-before {
-  width: 100%;
-  border-top: 30px solid transparent;
-  border-image: url('../images/paper-cut-top.png') 50 stretch;
+.navbar-bg {
+  background: #141E30;
+  background: -webkit-linear-gradient(to top, #243B55, #141E30);
+  background: linear-gradient(to top, #243B55, #141E30);
 }
 
-.paper-cut-border-after {
-  width: 100%;
-  border-bottom: 30px solid transparent;
-  border-image: url('../images/paper-cut-bottom.png') 50 stretch;
+
+.darkblue-grad-bg {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,  rgba(2,0,36,1) 100%);
+}
+
+.clouds-grad-bg{
+  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+.heart {
+  position: relative;
+  bottom: -2rem;
+  animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg)
+  }
+  100% {
+    transform: rotateY(360deg)
+  }
 }
 
 /* 
@@ -82,17 +96,43 @@ Fixing Specific Elements
   margin: 0 1.5rem;
 }
 
-.navbar-bg {
-  background: #141E30;
-  background: -webkit-linear-gradient(to top, #243B55, #141E30);
-  background: linear-gradient(to top, #243B55, #141E30);
+.instagram {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
-.darkblue-grad-bg {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,  rgba(2,0,36,1) 100%);
+@keyframes slide {
+  0%{
+    margin-left:-5%
+  }
+  100%{
+    margin-left:-160%
+  }
 }
 
-.clouds-grad-bg{
-  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+.gallery-inner {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  scroll-snap-type: y mandatory;
+  overscroll-behavior: contain;
+  animation: slide 20s infinite linear;
+}
+
+.gallery-img {
+  margin: 0 0.5rem;
+  border-radius: 6px;
+  max-height: 50vh!important;
+  object-fit: contain;
+}
+
+.paper-cut-border-before {
+  width: 100%;
+  border-top: 30px solid transparent;
+  border-image: url('../images/paper-cut-top.png') 50 stretch;
+}
+
+.paper-cut-border-after {
+  width: 100%;
+  border-bottom: 30px solid transparent;
+  border-image: url('../images/paper-cut-bottom.png') 50 stretch;
 }

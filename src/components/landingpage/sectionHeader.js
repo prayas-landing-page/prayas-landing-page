@@ -6,10 +6,9 @@ import {
 
 export default function SectionHeader() {
     const images = [
-        require('../../media/header_01.jpeg'),
-        require('../../media/header_02.jpeg'),
-        // '../../media/header_01.jpeg',
-        // '../../media/header_02.jpeg',
+        require('../../media/header_01.jpg'),
+        require('../../media/header_02.jpg'),
+        require('../../media/header_03.jpg'),
         // '../../media/header_01.jpeg',
         // '../../media/header_02.jpeg'
     ]
@@ -25,7 +24,7 @@ export default function SectionHeader() {
         )
     )
     return (
-        <MDBCarousel fade interval={3000} pause="false">
+        <MDBCarousel fade interval={4000} pause="false" showControls>
             {carousel_images}
         </MDBCarousel>
     );

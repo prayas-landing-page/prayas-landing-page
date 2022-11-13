@@ -23,7 +23,7 @@ export default function SectionReferences() {
             <MDBContainer>
                 <MDBRow>
                     <MDBCol md='6' offsetMd={3}>
-                        <MDBTypography className='display-4 text-success text-center my-5'>
+                        <MDBTypography className='display-3 text-success text-center my-5'>
                             <i>{title}</i>
                         </MDBTypography>
                     </MDBCol>

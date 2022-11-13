@@ -5,8 +5,6 @@ import {
     MDBTypography,
     MDBCard,
     MDBCardBody,
-    MDBCardTitle,
-    MDBCardImage,
     MDBCardText
 } from 'mdb-react-ui-kit';
 
@@ -39,7 +37,7 @@ export default function SectionMembers() {
                             members.map((member, index) =>
                                 <MDBCol size="6" md='3' key={index}>
                                     <MDBCard shadow='0' border='dark' background='white' className='mb-3'>
-                                        <MDBCardImage src={require('../../assets/images/headshot.png')} alt={member} position='top' />
+                                        {/* <MDBCardImage src={require('../../assets/images/headshot.png')} alt={member} position='top' /> */}
                                         <MDBCardBody className="bg-dark bg-gradient">
                                             <MDBCardText className='text-center text-white fs-4'>{member}</MDBCardText>
                                         </MDBCardBody>
