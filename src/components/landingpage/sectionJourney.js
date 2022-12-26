@@ -35,10 +35,9 @@ export default function SectionJourney() {
                     <MDBCard className="clouds-grad-bg" key={index}>
                         <MDBRow className={index %2 === 0 ? "": "flex-row-reverse"}>
                             <MDBCol lg="3">
-                                <MDBCardImage src={event.image} position='top' alt='Image' className="img-fluid rounded" />
+                                <MDBCardImage src={event.image} alt='Image' className="img-fluid rounded images-centered" />
                             </MDBCol>
-                            <MDBCol lg="1"></MDBCol>
-                            <MDBCol lg="8">
+                            <MDBCol lg="9">
                                 <MDBCardBody className="my-3">
                                     <MDBTypography className="display-7 text-muted">
                                         {event.description}

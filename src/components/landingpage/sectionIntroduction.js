@@ -38,7 +38,7 @@ export default function SectionIntroduction() {
                         </MDBRow>
                     </MDBCol>
                     <MDBCol lg='6' className='d-none d-lg-block'>
-                        <Lottie animationData={animationData} className='col-md-8 m-auto py-4' />;
+                        <Lottie animationData={animationData} className='col-md-8 m-5 h-75'/>;
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>

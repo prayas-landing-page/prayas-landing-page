@@ -47,13 +47,16 @@ export default function SectionEvents() {
         { 'src': require('../../media/events/events_01.jpeg'), 'width': 960, 'height': 1280 },
     ];
     return (
-        <section className='py-5'>
+        <section className='py-5 darkblue-grad-bg'>
             <MDBRow className="my-5">
                 <MDBTypography className='display-3 text-success text-center'>
                     <i>{title}</i>
                 </MDBTypography>
             </MDBRow>
             <Carousel images={images} />
+            <MDBRow className="my-5">
+                <p></p>
+            </MDBRow>
         </section >
     );
 }

@@ -17,7 +17,7 @@ export default function SectionDonors() {
         "Shree Bhavesh Hakani (Chhabildas developers Pvt Ltd.)",
         "Nilesh Timbadia (Matushri Revakuvarba Mohanlal Timbadia)",
         "Shree Manish Mehta (Mehta Tyres)",
-        "Shree Mehul Dholakia ( DJ Toyota )",
+        "Shree Mehul Dholakia (DJ Toyota)",
         "Shree Sthanakvasi Jain Sangh, Sector 22, Gandhinagar",
     ];
     return (
@@ -34,14 +34,13 @@ export default function SectionDonors() {
                     <MDBRow>
                         {
                             members.map((member, index) =>
-                                <MDBCol md='4' key={index}>
-                                    <MDBCard shadow='0' className='mb-3 shadow-4 bg-light bg-gradient'>
+                                <MDBCol md='4' key={index} className="my-3">
+                                    <MDBCard shadow='0' className='shadow-4 bg-light bg-gradient h-100'>
                                         <MDBCardBody>
                                             <span className="w-100 text-center text-danger py-4 d-grid">
                                                 <MDBIcon fas icon="heart" size="3x" className="heart" style={{'animationDelay': Math.random().toFixed(1) + 's'}}/>
                                                 <MDBIcon fas icon="hand-holding" size="5x"className=""/>
                                             </span>
-                                            
                                             <MDBCardText className="display-8">
                                                 {member}
                                             </MDBCardText>

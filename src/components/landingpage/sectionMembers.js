@@ -39,7 +39,7 @@ export default function SectionMembers() {
                                     <MDBCard shadow='0' border='dark' background='white' className='mb-3'>
                                         {/* <MDBCardImage src={require('../../assets/images/headshot.png')} alt={member} position='top' /> */}
                                         <MDBCardBody className="bg-dark bg-gradient">
-                                            <MDBCardText className='text-center text-white fs-4'>{member}</MDBCardText>
+                                            <MDBCardText className='text-center text-white fs-5'>{member}</MDBCardText>
                                         </MDBCardBody>
                                     </MDBCard>
                                 </MDBCol>

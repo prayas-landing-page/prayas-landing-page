@@ -6,13 +6,13 @@ body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   -ms-overflow-style: none;
   /* IE and Edge */
-  scrollbar-width: none;
+  scrollbar-width: none!important;
   /* Firefox */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
-  display: none;
+  display: none!important;
 }
 
 
@@ -135,4 +135,10 @@ Fixing Specific Elements
   width: 100%;
   border-bottom: 30px solid transparent;
   border-image: url('../images/paper-cut-bottom.png') 50 stretch;
+}
+
+.images-centered {
+  height: 100%!important;
+  width: 100%!important;
+  object-fit:cover;
 }
