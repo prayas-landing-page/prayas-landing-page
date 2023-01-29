@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prayas-landing-page/static/css/main.e0e52efc.css",
-    "main.js": "/prayas-landing-page/static/js/main.6426d6df.js",
+    "main.css": "/prayas-landing-page/static/css/main.d2f27b58.css",
+    "main.js": "/prayas-landing-page/static/js/main.6bcaa2fa.js",
     "static/media/events_22_09_07.jpeg": "/prayas-landing-page/static/media/events_22_09_07.469255f313ea4a1fbe17.jpeg",
     "static/media/events_22_08_30.jpeg": "/prayas-landing-page/static/media/events_22_08_30.994f2271bb252798f299.jpeg",
     "static/media/events_02.jpeg": "/prayas-landing-page/static/media/events_02.766dc6de18b4703caafe.jpeg",
@@ -33,14 +33,17 @@
     "static/media/fa-regular-400.woff2": "/prayas-landing-page/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
     "static/media/paper-cut-top.png": "/prayas-landing-page/static/media/paper-cut-top.45d298ba888a5c7230f7.png",
     "static/media/paper-cut-bottom.png": "/prayas-landing-page/static/media/paper-cut-bottom.a4e066febf2cddffaaee.png",
+    "static/media/revicons.eot": "/prayas-landing-page/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/prayas-landing-page/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/fa-v4compatibility.ttf": "/prayas-landing-page/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
+    "static/media/revicons.woff": "/prayas-landing-page/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/fa-v4compatibility.woff2": "/prayas-landing-page/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/prayas-landing-page/index.html",
-    "main.e0e52efc.css.map": "/prayas-landing-page/static/css/main.e0e52efc.css.map",
-    "main.6426d6df.js.map": "/prayas-landing-page/static/js/main.6426d6df.js.map"
+    "main.d2f27b58.css.map": "/prayas-landing-page/static/css/main.d2f27b58.css.map",
+    "main.6bcaa2fa.js.map": "/prayas-landing-page/static/js/main.6bcaa2fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0e52efc.css",
-    "static/js/main.6426d6df.js"
+    "static/css/main.d2f27b58.css",
+    "static/js/main.6bcaa2fa.js"
   ]
 }
