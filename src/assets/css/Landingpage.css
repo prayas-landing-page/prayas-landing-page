@@ -28,8 +28,22 @@ BEAUTIFICATION
   text-indent: 10%;
 }
 
-.deluxe-grey {
-  background-color: #bebebe !important;
+.title {
+  color: rgb(16, 65, 164);
+  text-align: center !important;
+  font-weight: 400!important;
+}
+
+.text-pink {
+  color: rgb(236, 79, 157);
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.gray-bg{
+  background-color:  #f5f5f5;
 }
 
 .display-7 {
@@ -109,20 +123,17 @@ Fixing Specific Elements
   }
 }
 
-.gallery-inner {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  scroll-snap-type: y mandatory;
-  overscroll-behavior: contain;
-  animation: slide 20s infinite linear;
+
+.react-multi-carousel-item {
+  padding: 0 0.5rem;
 }
 
-.gallery-img {
-  margin: 0 0.5rem;
-  border-radius: 6px;
-  max-height: 50vh!important;
-  object-fit: contain;
+.react-multi-carousel-img {
+  border-radius: 0.25rem;
+  height: 50vh!important;
+  object-fit: cover;
+  margin:0 auto;
+  width:100%;
 }
 
 .paper-cut-border-before {

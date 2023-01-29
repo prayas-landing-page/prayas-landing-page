@@ -17,11 +17,9 @@ export default function SectionVision() {
         <section className='py-5'>
             <MDBContainer>
                 <MDBRow>
-                <MDBCol md='6' offsetMd={3}>
-                        <MDBTypography className='display-4 text-success text-center'>
-                            <i>{title}</i>
-                        </MDBTypography>
-                    </MDBCol>
+                    <MDBTypography className='display-3 title'>
+                        {title}
+                    </MDBTypography>
                 </MDBRow>
                 <MDBRow>
                     <MDBCol md='8' offsetMd={2}>

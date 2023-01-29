@@ -7,8 +7,8 @@ export default function Footer() {
     return (
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
             <MDBContainer>
-                <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-                    <div className='me-5 d-none d-lg-block'>
+                <section className='d-flex justify-content-center p-4 border-bottom'>
+                    <div className='m-2 d-none d-lg-block'>
                         <p>Get connected with us on social networks:</p>
                     </div>
                     <div>
@@ -49,8 +49,7 @@ export default function Footer() {
                 <MDBRow className='mt-3'>
                     <MDBCol lg="3" md="4" className='mx-auto mb-4'>
                         
-                        <MDBTypography tag='div' className='display-7 mb-4'>
-                            <MDBIcon icon="hand" className="me-3" />
+                        <MDBTypography tag='div' className='display-8 mb-4'>
                             Lend a helping hand at
                         </MDBTypography>
                         
@@ -80,7 +79,7 @@ export default function Footer() {
                         <MDBTypography tag='div' className='display-7 mb-3'>
                             Contact Info 
                         </MDBTypography>
-                        <MDBTypography tag='div' className='display-8'>
+                        <MDBTypography tag='div' className='display-8 fw-bold'>
                             {dataset.prayas.name}
                         </MDBTypography>
                         <MDBTypography tag='div' className='display-9'>

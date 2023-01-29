@@ -24,11 +24,9 @@ export default function SectionJourney() {
         <section>
             <MDBContainer className="d-grid gap-4">
                 <MDBRow>
-                    <MDBCol md='6' offsetMd={3}>
-                        <MDBTypography className='display-4 text-success text-center my-5'>
-                            <i>{title}</i>
-                        </MDBTypography>
-                    </MDBCol>
+                    <MDBTypography className='display-3 title my-5'>
+                        {title}
+                    </MDBTypography>
                 </MDBRow>
 
                 {journey.map((event, index) =>

@@ -18,7 +18,7 @@ root.render(
 
         {/* If none of the paths match, fallback to the landing page by default */}
         <Route path="/">
-          <LandingPage />
+          <LandingPage/>
         </Route>
       </Switch>
 

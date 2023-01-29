@@ -24,11 +24,9 @@ export default function SectionDonors() {
         <section className='py-5 navbar-bg'>
             <MDBContainer>
                 <MDBRow>
-                <MDBCol md='6' offsetMd={3}>
-                        <MDBTypography className='display-4 text-white fw-bold my-5 text-center'>
-                            <i>{title}</i>
-                        </MDBTypography>
-                    </MDBCol>
+                    <MDBTypography className='display-3 title text-light my-5'>
+                        {title}
+                    </MDBTypography>
                 </MDBRow>
                 <MDBContainer>
                     <MDBRow>

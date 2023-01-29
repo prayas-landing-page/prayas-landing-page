@@ -26,8 +26,8 @@ export default function SectionMembers() {
             <MDBContainer>
                 <MDBRow>
                     <MDBCol md='12'>
-                        <MDBTypography className='display-4 text-success text-center my-5'>
-                            <i>{title}</i>
+                        <MDBTypography className='display-3 title my-5'>
+                            {title}
                         </MDBTypography>
                     </MDBCol>
                 </MDBRow>

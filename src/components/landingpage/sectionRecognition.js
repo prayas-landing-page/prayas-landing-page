@@ -16,10 +16,9 @@ export default function SectionRecognition() {
 
     return (
         <section className='my-5'>
-            <MDBContainer>
                 <MDBRow>
-                    <MDBTypography className='display-3 text-success text-center my-5'>
-                        <i>{title}</i>
+                    <MDBTypography className='display-3 m-5 title'>
+                        {title}
                     </MDBTypography>
                 </MDBRow>
                 <MDBRow>
@@ -32,7 +31,6 @@ export default function SectionRecognition() {
                         </MDBTypography>
                     </MDBCol>
                 </MDBRow>
-            </MDBContainer>
         </section>
     );
 }
