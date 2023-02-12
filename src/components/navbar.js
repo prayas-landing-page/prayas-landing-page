@@ -10,7 +10,7 @@ import {
   MDBNavbarItem,
   MDBBtn
 } from 'mdb-react-ui-kit';
-
+import dataset from '../data.json';
 
 export default function CustomNavbar() {
   const [showNav, setShowNav] = useState(false);
@@ -39,9 +39,11 @@ export default function CustomNavbar() {
         <MDBCollapse navbar show={showNav}>
           <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBBtn outline rounded className='mx-5' color='white' size='lg'>
-                Donate Now
+              <a href={dataset.contact_form}>
+              <MDBBtn outline rounded className='mx-5' color='white' size='lg' >
+                Contact Us
               </MDBBtn>
+              </a>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>

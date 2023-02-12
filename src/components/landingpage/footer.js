@@ -3,7 +3,7 @@ import { MDBFooter, MDBContainer, MDBBtn, MDBRow, MDBCol, MDBIcon, MDBTypography
 import dataset from '../../data.json';
 
 export default function Footer() {
-    const { facebook_profile, instagram_profile, youtube_profile } = dataset.social_media;
+    const { facebook_profile, instagram_profile, youtube_profile, whatsapp_profile } = dataset.social_media;
     return (
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
             <MDBContainer>
@@ -42,6 +42,17 @@ export default function Footer() {
                             size="lg"
                         >
                             <MDBIcon fab icon='youtube' size="2x" />
+
+                        </MDBBtn>
+                        <MDBBtn
+                            floating
+                            className='mx-3'
+                            style={{ backgroundColor: '#25D366' }}
+                            href={whatsapp_profile}
+                            role='button'
+                            size="lg"
+                        >
+                            <MDBIcon fab icon='whatsapp' size="2x" />
 
                         </MDBBtn>
                     </div>

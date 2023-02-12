@@ -15,7 +15,7 @@ export default function SectionMembers() {
         "Amit Parekh",
         "Jayesh Gandhi",
         "Chirag Doshi",
-        "Malay Malviya",
+        "Malay Malvaniya",
         "Vimal shah",
         "Nishant Shah",
         "Siddharth Talsania",

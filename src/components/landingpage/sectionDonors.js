@@ -19,6 +19,7 @@ export default function SectionDonors() {
         "Shree Manish Mehta (Mehta Tyres)",
         "Shree Mehul Dholakia (DJ Toyota)",
         "Shree Sthanakvasi Jain Sangh, Sector 22, Gandhinagar",
+        " Shree Vinubhai Kapasi (Top Impex Pvt. Ltd.)",
     ];
     return (
         <section className='py-5 navbar-bg'>
@@ -32,7 +33,7 @@ export default function SectionDonors() {
                     <MDBRow>
                         {
                             members.map((member, index) =>
-                                <MDBCol md='4' key={index} className="my-3">
+                                <MDBCol md='3' key={index} className="my-3">
                                     <MDBCard shadow='0' className='shadow-4 bg-light bg-gradient h-100'>
                                         <MDBCardBody>
                                             <span className="w-100 text-center text-danger py-4 d-grid">

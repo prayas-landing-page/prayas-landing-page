@@ -1,11 +1,13 @@
 {
     "prayas": {
         "name": "Prayas Charitable Trust",
-        "mobile_number": "93761 80212"
+        "mobile_number": "99138 80212"
     },
+    "contact_form": "https://forms.gle/2ndvyi6XqPzVBrpW8",
     "social_media": {
         "facebook_profile": "https://www.facebook.com/profile.php?id=100080908892056",
         "youtube_profile": "https://www.youtube.com/channel/UC1_mwvqr4gRoUMnGF_7nShA",
-        "instagram_profile": "https://www.instagram.com/prayas_charitable_trust/"
+        "instagram_profile": "https://www.instagram.com/prayas_charitable_trust/",
+        "whatsapp_profile": "https://wa.me/message/WQQAC74RSI7BD1"
     }
 }
