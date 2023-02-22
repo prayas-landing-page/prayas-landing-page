@@ -35,7 +35,7 @@ export default function SectionDonors() {
                             members.map((member, index) =>
                                 <MDBCol md='3' key={index} className="my-3">
                                     <MDBCard shadow='0' className='shadow-4 bg-light bg-gradient h-100'>
-                                        <MDBCardBody>
+                                        <MDBCardBody className="d-none d-md-block">
                                             <span className="w-100 text-center text-danger py-4 d-grid">
                                                 <MDBIcon fas icon="heart" size="3x" className="heart" style={{'animationDelay': Math.random().toFixed(1) + 's'}}/>
                                                 <MDBIcon fas icon="hand-holding" size="5x"className=""/>

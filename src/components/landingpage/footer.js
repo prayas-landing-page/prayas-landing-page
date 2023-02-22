@@ -102,7 +102,7 @@ export default function Footer() {
                 </MDBRow>
                 <MDBRow>
                     <div className='text-center p-4'>
-                        Made with <MDBIcon fas className='text-danger' icon="heart" /> by
+                        Made with <MDBIcon fas className='text-danger rotate' icon="heart" /> by
                         <a className='text-reset fw-bold' href='https://fenilgandhi.github.io'> Fenil Gandhi </a>
                     </div>
                 </MDBRow>

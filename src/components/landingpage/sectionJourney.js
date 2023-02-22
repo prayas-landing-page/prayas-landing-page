@@ -18,10 +18,10 @@ export default function SectionJourney() {
         { "image": require("../../media/journey_4.png"), "description": "The old-age homes are often overlooked and lack facilities. We provided them with clothes and installed a live dhokla machine that brought a bright smile on the faces of our dada-dadis." },
         { "image": require("../../media/journey_bhakti_sandhya.jpg"), "description": "Bhakti sandhyas are organised at old age homes for more than 80 old-age home residents so that they can enjoy a fun-filled evening and end the day with bright smiles on their face." },
         { "image": require("../../media/journey_5.png"), "description": "We make it a point to spend time with specially-abled children, play with them and engage them in constructive activities like painting, art and crafts. We have also distributed 5000 notebooks to the needy students for unhindered access to quality education." },
-        { "image": require("../../media/logo.png"), "description": "As part of our efforts to improve the environment, we have organized a tree-planting drive at various locations. So far 7500 saplings have been planted in old age homes and panjrapoles." },
+        { "image": require("../../media/journey_seedball.jpg"), "description": "As part of our efforts to improve the environment, we have organized a tree-planting drive at various locations. So far 7500 saplings have been planted in old age homes and panjrapoles." },
     ];
     return (
-        <section>
+        <section className="mb-3">
             <MDBContainer className="d-grid gap-4">
                 <MDBRow>
                     <MDBTypography className='display-3 title my-5'>
