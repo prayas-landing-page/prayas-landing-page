@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd9e8972.css",
-    "main.js": "/static/js/main.84b1548b.js",
+    "main.css": "/static/css/main.fe741715.css",
+    "main.js": "/static/js/main.b2dbfc4d.js",
     "static/media/events_22_09_07.jpeg": "/static/media/events_22_09_07.469255f313ea4a1fbe17.jpeg",
     "static/media/events_22_08_30.jpeg": "/static/media/events_22_08_30.994f2271bb252798f299.jpeg",
     "static/media/events_02.jpeg": "/static/media/events_02.766dc6de18b4703caafe.jpeg",
@@ -10,25 +10,32 @@
     "static/media/journey_food_distribution.png": "/static/media/journey_food_distribution.62349f6e3025d5736447.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/events_06.jpeg": "/static/media/events_06.cc266493c04c15b47a81.jpeg",
-    "static/media/logo.png": "/static/media/logo.37856877709df5fefa0b.png",
+    "static/media/05.jpeg": "/static/media/05.0241ef461546905c3b31.jpeg",
     "static/media/journey_slippers.jpg": "/static/media/journey_slippers.0f59af79c36b88fa3bca.jpg",
     "static/media/journey_2.png": "/static/media/journey_2.2f9428bc165b41c21660.png",
     "static/media/events_03.jpeg": "/static/media/events_03.244fb5cd82b5f2423a02.jpeg",
+    "static/media/02.jpeg": "/static/media/02.8b42913b3527139169ba.jpeg",
     "static/media/events_07.jpeg": "/static/media/events_07.e4822fa269096eeacf52.jpeg",
     "static/media/events_22_10_05.jpeg": "/static/media/events_22_10_05.123624abdb08be958a77.jpeg",
     "static/media/events_05.jpeg": "/static/media/events_05.0a74b984da751e43f3f9.jpeg",
+    "static/media/04.jpeg": "/static/media/04.6b16a02491bfca3ca418.jpeg",
     "static/media/journey_bhakti_sandhya.jpg": "/static/media/journey_bhakti_sandhya.65aa054ee4e1c1b3c2d0.jpg",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/header_02.jpg": "/static/media/header_02.c74f5691fdd6be17557f.jpg",
+    "static/media/01.jpeg": "/static/media/01.c323de8b0b141c9ef8e4.jpeg",
     "static/media/journey_blankets.jpg": "/static/media/journey_blankets.c935ea035e771a93d2d4.jpg",
     "static/media/header_01.jpg": "/static/media/header_01.fcfbdd75b522af6d8a09.jpg",
+    "static/media/03.jpeg": "/static/media/03.91645fdea109fca6c587.jpeg",
     "static/media/events_04.jpeg": "/static/media/events_04.635f25ca707bf690db6d.jpeg",
     "static/media/journey_3.png": "/static/media/journey_3.6e330a2d61744af253d2.png",
+    "static/media/journey_seedball.jpg": "/static/media/journey_seedball.671bae9f46375aa1c79d.jpg",
     "static/media/journey_4.png": "/static/media/journey_4.78366e204792e3d0a8bf.png",
     "static/media/header_03.jpg": "/static/media/header_03.62ee16d5836ab7166046.jpg",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/2023-02-26.jpeg": "/static/media/2023-02-26.c9c2feb05c9d3e5d1206.jpeg",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
     "static/media/events_01.jpeg": "/static/media/events_01.24c0d8dc1ef8dff2e674.jpeg",
+    "static/media/logo.png": "/static/media/logo.37856877709df5fefa0b.png",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
     "static/media/paper-cut-top.png": "/static/media/paper-cut-top.45d298ba888a5c7230f7.png",
@@ -39,11 +46,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/index.html",
-    "main.bd9e8972.css.map": "/static/css/main.bd9e8972.css.map",
-    "main.84b1548b.js.map": "/static/js/main.84b1548b.js.map"
+    "main.fe741715.css.map": "/static/css/main.fe741715.css.map",
+    "main.b2dbfc4d.js.map": "/static/js/main.b2dbfc4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd9e8972.css",
-    "static/js/main.84b1548b.js"
+    "static/css/main.fe741715.css",
+    "static/js/main.b2dbfc4d.js"
   ]
 }
