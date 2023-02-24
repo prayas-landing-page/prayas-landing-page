@@ -33,7 +33,7 @@ export default function CustomNavbar() {
           aria-label='Toggle navigation'
           onClick={() => setShowNav(!showNav)}
         >
-          <MDBIcon icon='bars' fas />
+          <MDBIcon icon='bars' fas  className='text-white'/>
         </MDBNavbarToggler>
 
         <MDBCollapse navbar show={showNav}>
