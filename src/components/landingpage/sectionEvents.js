@@ -36,7 +36,7 @@ export default function SectionEvents() {
         { 'src': require('../../media/events/events_03.jpeg'), 'width': 1280, 'height': 960 },
         { 'src': require('../../media/events/events_05.jpeg'), 'width': 1200, 'height': 1600 },
         { 'src': require('../../media/events/events_02.jpeg'), 'width': 1080, 'height': 1080 },
-        { 'src': require('../../media/events/events_06.jpeg'), 'width': 1600, 'height': 1200 },
+        { 'src': require('../../media/events/events_06.jpg'), 'width': 1600, 'height': 1200 },
         { 'src': require('../../media/events/events_22_08_30.jpeg'), 'width': 1080, 'height': 1080 },
         { 'src': require('../../media/events/events_07.jpeg'), 'width': 900, 'height': 1600 },
     ];

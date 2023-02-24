@@ -6,11 +6,10 @@ import {
 
 export default function SectionHeader() {
     const images = [
-        require('../../media/header_01.jpg'),
-        require('../../media/header_02.jpg'),
-        require('../../media/header_03.jpg'),
-        // '../../media/header_01.jpeg',
-        // '../../media/header_02.jpeg'
+        require('../../media/header/header_01.jpg'),
+        require('../../media/header/header_02.jpg'),
+        require('../../media/header/header_03.jpg'),
+        
     ]
     const carousel_images = (        
         images.map((image_src, index) =>

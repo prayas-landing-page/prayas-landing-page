@@ -79,7 +79,7 @@ export default function Footer() {
                     </MDBCol>
                     <MDBCol md="4">
                         <img
-                            src={require('../../assets/images/new_logo.jpeg')}
+                            src={require('../../assets/images/new_logo.jpg')}
                             alt='Prayas Logo'
                             loading='lazy'
                             className='img-fluid px-2'
