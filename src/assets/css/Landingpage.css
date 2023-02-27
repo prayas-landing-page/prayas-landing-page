@@ -72,6 +72,12 @@ BEAUTIFICATION
   }
 }
 
+@media screen and (max-width: 576px) {
+  .shrink-50 {
+    zoom:0.5;
+  }
+}
+
 .navbar-bg {
   background: #141E30;
   background: -webkit-linear-gradient(to top, #243B55, #141E30);
@@ -115,7 +121,8 @@ Fixing Specific Elements
   height: 4rem;
   margin: 0 1.5rem;
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 576px) {
   .navbar .navbar-brand {
     margin-left:25%!important;
     margin-right:0!important;
