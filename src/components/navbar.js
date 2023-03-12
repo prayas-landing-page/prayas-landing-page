@@ -40,7 +40,7 @@ export default function CustomNavbar() {
           <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
               <a href={dataset.contact_form}>
-              <MDBBtn outline rounded className='mx-5' color='white' size='lg' >
+              <MDBBtn outline rounded className='mx-5 fw-bold' color='white' size='lg' >
                 Contact Us
               </MDBBtn>
               </a>
